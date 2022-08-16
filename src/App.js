@@ -1,17 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { ApiData } from "./components/ApiData";
+import ApiFetch from "./components/ApiFetch";
 
-function App() {
+
+function App () {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
 
-        <ApiData />
-      </header>
+      <ApiFetch/>
     </div>
   );
 }
+
 
 export default App;
